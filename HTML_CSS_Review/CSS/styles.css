@@ -116,4 +116,20 @@ footer {
     .col {
         width: 50%;
     }
+
+    .col_text {
+        margin-top: 60px;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    .column_text {
+        margin-top: 60px;
+    }
 }
