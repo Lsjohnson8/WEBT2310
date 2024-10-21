@@ -94,7 +94,26 @@ footer {
 
 /* Tablet Style*/
 
-@media (min-width; 768px) {
+@media (min-width: 768px) {
 
-    nav li 
+    nav {
+        padding: 20px;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        width: 50%;
+    }
 }
