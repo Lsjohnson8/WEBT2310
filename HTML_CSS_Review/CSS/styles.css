@@ -29,12 +29,8 @@ p {
     padding: 10px;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
-}
-
-h2, h3 {
-    text-align: left;
 }
 
 nav {
@@ -70,4 +66,35 @@ header {
 section {
     margin: 10px 0;
     padding: 10px;
+}
+
+.col { 
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#lower_area {
+    text-align: center;
+}
+
+.column {
+    margin: 10px 0;
+    padding: 10px
+}
+
+.column img {
+    width: 10%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Tablet Style*/
+
+@media (min-width; 768px) {
+
+    nav li 
 }
