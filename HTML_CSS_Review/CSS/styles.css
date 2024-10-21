@@ -18,3 +18,31 @@ img {
 nav, header, section, footer {
     background-color: white;
 }
+
+/* Mobile Style*/
+
+nav {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #9BB0C1;
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    color: #EADFB4;
+}
