@@ -26,7 +26,7 @@ nav, header, section, footer {
 }
 
 #logo {
-    width: 100px;
+    width: 200px;
     height: 100px;
 }
 
@@ -35,6 +35,7 @@ nav, header, section, footer {
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #two {
@@ -42,6 +43,7 @@ nav, header, section, footer {
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #three {
@@ -49,6 +51,7 @@ nav, header, section, footer {
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 main {
@@ -57,12 +60,16 @@ main {
 
 .button {
     display: block;
-    background-color: white;
+    background-color: #51829B;
     width: 100%;
-    height: 20px;
-    color: #51829B;
+    height: 45px;
+    color: #EADFB4;
     text-decoration: none;
     text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
     text-size-adjust: 50px;
     font-weight: bold;
 }
@@ -124,6 +131,7 @@ section {
 
 #lower_area {
     text-align: center;
+    line-height: 45px;
 }
 
 .column {
