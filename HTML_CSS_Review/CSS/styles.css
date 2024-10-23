@@ -29,6 +29,10 @@ nav, header, section, footer {
     height: 100px;
 }
 
+#link {
+    text-decoration: none;
+}
+
 /* Mobile Style*/
 
 #container {
