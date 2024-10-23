@@ -24,6 +24,11 @@ nav, header, section, footer {
     height: 75%;
 }
 
+#logo {
+    width: 100%;
+    height: 75%;
+}
+
 /* Mobile Style*/
 
 #container {
