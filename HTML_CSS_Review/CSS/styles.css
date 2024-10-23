@@ -29,7 +29,7 @@ nav, header, section, footer {
     height: 100px;
 }
 
-#link {
+ul, li {
     text-decoration: none;
 }
 
