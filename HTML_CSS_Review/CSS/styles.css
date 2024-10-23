@@ -19,6 +19,10 @@ nav, header, section, footer {
     background-color: white;
 }
 
+#banner {
+    width: 100%;
+}
+
 /* Mobile Style*/
 
 #container {
