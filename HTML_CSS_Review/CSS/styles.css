@@ -30,23 +30,7 @@ nav, header, section, footer {
     height: 100px;
 }
 
-#one {
-    width: 30%;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#two {
-    width: 30%;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#three {
+#one, #two, #three {
     width: 30%;
     border: 2px solid black;
     margin: 20px;
@@ -70,7 +54,7 @@ main {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    text-size-adjust: 50px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -182,7 +166,7 @@ footer {
 
 /* Desktop Style*/
 
-@media (mid-width: 1024px) {
+@media (min-width: 1024px) {
 
     nav li a {
         background-color: white;
