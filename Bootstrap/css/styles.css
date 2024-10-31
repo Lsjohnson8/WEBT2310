@@ -11,6 +11,10 @@
         object-fit: cover;
 }
 
+.card:hover {
+    transform: scale(1.05);
+}
+
 /*IDs*/
 
 #header_img {
