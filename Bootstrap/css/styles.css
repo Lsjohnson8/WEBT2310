@@ -35,3 +35,18 @@
 h1,h2,h3 {
     text-align: center;
 }
+
+#ea {
+    background-image: url(../images/ea.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ea img {
+    width: 50%;
+    height: auto;
+}
+
+#logo {
+    width: 30%;
+}
