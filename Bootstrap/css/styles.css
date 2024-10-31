@@ -15,6 +15,11 @@
     transform: scale(1.05);
 }
 
+.sims img {
+    width: 100%;
+    height: auto;
+}
+
 /*IDs*/
 
 #header_img {
