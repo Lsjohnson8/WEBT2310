@@ -6,8 +6,6 @@
     <title>All About The Sims</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -41,16 +39,77 @@
           <a href="https://www.ea.com/" class="btn btn-primary">Buy Now!</a>
         </div>
       </nav>
+
     <div id="header_img" class="p-5 mb-4 bg-light rounded-0">
         <div class="container-fluid py-5">
             <img id="header" class="d-block mx-auto" src="images/logo.png" alt="logo">
             <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Hello!" type="button">Sul Sul!</button>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-    
-    <script>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <h2 class="text-center">Sims 2</h2>
+          <img class="img-fluid my-3 rounded-4" src="images/sims2.jpg" alt="sims2">
+          <p>This sequel added deeper life stages (babies, toddlers, teens, adults), genetics, and the ability to see Sims age and pass through generations. It introduced more complex aspirations, personality traits, and expanded the gameplay with detailed family dynamics.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <h2 class="text-center">Sims 3</h2>
+          <img class="img-fluid my-3 rounded-4" src="images/sims3.jpg" alt="sims3">
+          <p>The Sims 3 introduced an open-world neighborhood, allowing Sims to explore their town freely without loading screens. The game emphasized customization through the "Create-a-Style" tool, which lets players customize almost everything, from furniture to clothing.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <h2 class="text-center">Sims 4</h2>
+          <img class="img-fluid my-3 rounded-4" src="images/sims4.jpg" alt="sims4">
+          <p>This installment focused on enhancing emotions and social interactions, allowing Sims to react more dynamically to situations based on their emotional state. However, The Sims 4 removed the open world but introduced more detailed building and Sim creation tools.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="community" class="p-5 mb-4 bg-light rounded-0">
+      <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
+          <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">Welcome!</button>
+          <p>The Sims community is a creative and inclusive group of players who connect through building, storytelling, and custom content. Fans share their passion for the game across social media and forums, celebrating the endless possibilities of Sims' lives and collaborating to enhance the overall experience.</p>
+      </div>
+    </div>
+
+    <div id="ea" class="p-5 mb-4 bg-light rounded-0">
+      <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
+          <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">Buy Now!</button>
+          <p>Electronic Arts (EA) is a global leader in interactive entertainment, known for creating popular video game franchises like *The Sims*, *FIFA*, and *Apex Legends*, while fostering innovation and inclusivity in the gaming industry.</p>
+      </div>
+    </div>
+
+    <div id="cats" class="p-5 mb-4 bg-light rounded-0">
+      <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
+          <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">CATS!</button>
+          <p>Because they're awesome!</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-lg-12 py-5 text-center">
+            &copy; 2024 All About The Sims
+        </div>
+    </div>
+
+    <hr>
+   </div>
+
+   <!-- Scripts -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+   <script>
         // Initialize all tooltips on the page
         document.addEventListener('DOMContentLoaded', function () {
             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
@@ -58,57 +117,6 @@
                 return new bootstrap.Tooltip(tooltipTriggerEl);
             });
         });
-    </script>
-    <hr>
-    <div class="row">
-    <div class="col-lg-4">
-        <div class="card">
-        <h2 class="text-center">Sims 2</h2>
-        <img class="img-fluid my-3 rounded-4" src="images/sims2.jpg" alt="sims2">
-        <p>This sequel added deeper life stages (babies, toddlers, teens, adults), genetics, and the ability to see Sims age and pass through generations. It introduced more complex aspirations, personality traits, and expanded the gameplay with detailed family dynamics.</p>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="card">
-        <h2 class="text-center">Sims 3</h2>
-        <img class="img-fluid my-3 rounded-4" src="images/sims3.jpg" alt="sims3">
-        <p>The Sims 3 introduced an open-world neighborhood, allowing Sims to explore their town freely without loading screens. The game emphasized customization through the "Create-a-Style" tool, which lets players customize almost everything, from furniture to clothing.</p>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="card">
-        <h2 class="text-center">Sims 4</h2>
-        <img class="img-fluid my-3 rounded-4" src="images/sims4.jpg" alt="sims4">
-        <p>This installment focused on enhancing emotions and social interactions, allowing Sims to react more dynamically to situations based on their emotional state. However, The Sims 4 removed the open world it introduced more detailed building and Sim creation tools.</p>
-        </div>
-    </div>
-    <hr>
-    </div>
-    <div id="community" class="p-5 mb-4 bg-light rounded-0">
-      <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
-          <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">Welcome!</button>
-          <p>The Sims community is a creative and inclusive group of players who connect through building, storytelling, and custom content. Fans share their passion for the game across social media and forums, celebrating the endless possibilities of Sims' lives and collaborating to enhance the overall experience.</p>
-      </div>
-  </div>
-  <div id="ea" class="p-5 mb-4 bg-light rounded-0">
-    <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
-        <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">Buy Now!</button>
-        <p>Electronic Arts (EA) is a global leader in interactive entertainment, known for creating popular video game franchises like *The Sims*, *FIFA*, and *Apex Legends*, while fostering innovation and inclusivity in the gaming industry.</p>
-    </div>
-</div>
-<div id="cats" class="p-5 mb-4 bg-light rounded-0">
-  <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
-      <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">CATS!</button>
-      <p>Because they're awesome!</p>
-  </div>
-</div>
-    <hr>
-    <div class="row">
-        <div class="col-lg-12 py-5 text-center">
-            &copy; 2024 All About The Sims
-        </div>
-    </div>
-    <hr>
-   </div>
+   </script>
 </body>
 </html>
