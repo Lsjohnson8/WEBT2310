@@ -8,6 +8,11 @@
     background-position: center;
 }
 
+#header_img img {
+    width: 100%;
+    height: auto;
+}
+
 #header {
     width: 30%;
 }
