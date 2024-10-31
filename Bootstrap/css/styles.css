@@ -1,8 +1,8 @@
-header_img {
+#header_img {
     background-image: url(../images/hero.png);
 }
 
 #header_img img {
-    width: 50%; /* Set a fixed width */
+    width: 100%; /* Set a fixed width */
     height: auto; /* Maintains aspect ratio */
 }
