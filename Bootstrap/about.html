@@ -6,8 +6,6 @@
     <title>All About The Sims</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -41,24 +39,15 @@
           <a href="https://www.ea.com/" class="btn btn-primary">Buy Now!</a>
         </div>
       </nav>
+    
     <div id="header_img" class="p-5 mb-4 bg-light rounded-0">
         <div class="container-fluid py-5">
             <img id="header" class="d-block mx-auto" src="images/logo.png" alt="logo">
-            <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Hello!" type="button">Sul Sul!</button>
+            <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" data-bs-toggle="tooltip" data-bs-placement="right" title="Hello!" type="button">Sul Sul!</button>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-    
-    <script>
-        // Initialize all tooltips on the page
-        document.addEventListener('DOMContentLoaded', function () {
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl);
-            });
-        });
-    </script>
+
+    <!-- Carousel Section -->
     <h1>About The Sims and Electronic Arts</h1>
     <hr>
     <div id="carouselExample" class="carousel slide">
@@ -82,8 +71,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h2>About The Sims</h2>
-      <div class="row">
+
+    <!-- About The Sims Section -->
+    <h2>About The Sims</h2>
+    <div class="row">
         <div class="col-lg-4">
             <p>The Sims is one of the most iconic life simulation game series in video game history, allowing players to create and control characters, known as Sims, as they navigate everyday life. Launched in 2000, the franchise became an instant success due to its groundbreaking gameplay that lets players shape every aspect of their Sims’ lives—from building homes to fostering relationships, pursuing careers, and fulfilling dreams.</p>
         </div>
@@ -93,19 +84,26 @@
         <div class="col-lg-4">
             <p>With countless expansion packs, game packs, and custom content, The Sims has become a cultural phenomenon, adored by millions worldwide for its blend of creativity, humor, and real-life simulation. Players are empowered to design their own worlds, from dream homes to ideal communities, all while guiding their Sims through the ups and downs of life.</p>
         </div>
+    </div>
+    
     <hr>
+    
+    <!-- EA Section -->
     <div id="ea" class="p-5 mb-4 bg-light rounded-0">
         <div class="container-fluid py-5 p-5 bg-light bg-opacity-75 rounded-4">
             <button class="btn btn-primary rounded-0 mx-auto d-block mt-3" type="button">Welcome!</button>
             <p>Electronic Arts (EA) is a global leader in interactive entertainment, known for creating popular video game franchises like *The Sims*, *FIFA*, and *Apex Legends*, while fostering innovation and inclusivity in the gaming industry.</p>
         </div>
     </div>
-    <hr>
+    
+    <!-- About EA Section -->
     <h2>About Electronic Arts (EA)</h2>
     <p>Electronic Arts, commonly known as EA, is a global leader in interactive entertainment. Founded in 1982, EA has built a reputation for delivering some of the industry’s most beloved and successful games across various platforms. With a mission to inspire the world to play, EA develops, publishes, and distributes games for consoles, PCs, and mobile devices, reaching millions of players across the globe.</p>
     <p>EA is behind some of the most well-known game franchises in the industry, including The Sims, FIFA, Madden NFL, Battlefield, and Apex Legends. With a focus on innovation, EA continually pushes the boundaries of technology and storytelling to create immersive gaming experiences that engage and inspire.</p>
     <p>As a company, EA is committed to creativity, inclusivity, and sustainability. Through their games and their actions, they aim to bring people together, challenge boundaries, and build a positive and diverse community for players. EA's dedication to environmental stewardship and social responsibility is reflected in their sustainability efforts and commitment to reducing their environmental impact.</p>
+    
     <hr>
+    
     <div class="row">
         <div class="col-lg-12 py-5 text-center">
             &copy; 2024 All About The Sims
@@ -113,5 +111,19 @@
     </div>
     <hr>   
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Initialize all tooltips on the page
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>
+
 </body>
 </html>
