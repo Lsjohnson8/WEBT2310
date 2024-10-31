@@ -37,7 +37,7 @@
     width: 30%;
 }
 
-h1,h2,h3 {
+h1,h2,h3,p {
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ h1,h2,h3 {
     background-size: cover;
     background-position: center;
 }
+
 
 #community {
     background-image: url(../images/plumbob.png);
@@ -59,9 +60,9 @@ h1,h2,h3 {
     background-position: center;
 }
 
+
 @media (min-width: 1024px) {
     #logo {
         width: 50%;
-        height: auto;
     }
 }
