@@ -1,7 +1,14 @@
 /*Classes*/
 
-navbar {
+.navbar {
     background-color: white;
+}
+
+.row img {
+
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
 }
 
 /*IDs*/
