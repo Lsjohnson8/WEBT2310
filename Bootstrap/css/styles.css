@@ -1,3 +1,5 @@
 #header_img {
     background-image: url(../images/plumbob.png);
+    background-size: cover;
+    background-position: center;
 }
